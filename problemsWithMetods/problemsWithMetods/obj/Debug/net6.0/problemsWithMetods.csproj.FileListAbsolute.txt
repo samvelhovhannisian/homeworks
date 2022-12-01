@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\bin\Debug\net6.0\problemsWithMetods.exe
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\bin\Debug\net6.0\problemsWithMetods.deps.json
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\bin\Debug\net6.0\problemsWithMetods.runtimeconfig.json
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\bin\Debug\net6.0\problemsWithMetods.dll
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\bin\Debug\net6.0\problemsWithMetods.pdb
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.dll
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\refint\problemsWithMetods.dll
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.pdb
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\problemsWithMetods.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\problemsWithMetods\problemsWithMetods\obj\Debug\net6.0\ref\problemsWithMetods.dll

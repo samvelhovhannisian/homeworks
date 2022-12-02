@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
 
 
@@ -49,9 +50,151 @@ using System.Security.Cryptography.X509Certificates;
 //  }
 //}
 
+//Problem 214
+
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int[] arr1= new int[n];
+//            int count = 0;
+//            int sum = 0;
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = Convert.ToInt32(Console.ReadLine());
+//                if (arr1[i]<0)
+//                {
+//                    sum = sum + arr1[i];
+//                    count++;
+//                }
+//            }
+//            return sum / count;
+//        }
+//        static void Main(string[] args)
+//        {
+//           int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+//        }
+//    }
+//}
+
+//Problem 215
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//             int[] arr1=new int[n];
+//             int sum = 0;
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i]= Convert.ToInt32(Console.ReadLine());
+//                if (i % 2 == 0)
+//                {
+//                    sum = sum + arr1[i];
+//                }
+
+//            }
+//            return sum;
+
+//        }
+//        static void Main(string[] args)
+//        {
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+
+//        }
+//    }
+//}
 
 
+//Problrm 216
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int[] arr1= new int[n];
+//            int mult = 1;
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = Convert.ToInt32(Console.ReadLine());
+//                if (i % 2 == 0)
+//                {
+//                    mult = mult * arr1[i];
+//                }
+//            }
+//            return mult;
+//        }
+//        static void Main(string[] args)
+//        {
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
 
+//        }
+//    }
+//}
+
+
+// Problem 217
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n) 
+//        { 
+//            int[] arr1= new int[n];
+//            int sum = 0;
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = Convert.ToInt32(Console.ReadLine());
+//                if (i % 2 != 0)
+//                {
+//                    sum = arr1[i] * arr1[i];
+//                }
+//            }
+//            return sum;
+
+//        }
+//        static void Main(string[] args)
+//        {
+//           int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+//        }
+//    }
+//}
+
+// Problem 218
+
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int sum = 0;
+//            int[] arr1 = new int[n];
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = Convert.ToInt32(Console.ReadLine());
+//                if (i % 2 != 0)
+//                {
+//                    sum = sum + Math.Abs(arr1[i]);
+//                }
+//            }
+//            return sum;
+//        }
+//        static void Main(string[] args)
+//        {
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+//        }
+//    }
+//}
 
 
 
@@ -133,6 +276,71 @@ using System.Security.Cryptography.X509Certificates;
 //    }
 //}
 
+//Problem 225
+
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int t)
+//        {
+//            Random rnd= new Random();
+//            int[] arr1 = new int[5];
+//            int sum = 1;
+//            for (int i = 0; i < arr1.Length; i++)
+//            {
+//                arr1[i] = rnd.Next(1,20);
+//                if (Math.Abs(arr1[i]) < t)
+//                {
+//                    sum = sum * arr1[i];
+//                }
+
+//            }
+//            return sum;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq t amboxj tivy");
+//            int t = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("bacardzak arjeqov t-ic poqr tveri artadryaly = "+MyMethod(t));
+//        }
+//    }
+//}
+
+
+// Problem 229
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            Random rnd= new Random();
+//            int mult = 1;
+//            int[] arr1= new int[n];
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = rnd.Next(1,20);
+//                if (arr1[i]-i > 0)
+//                {
+//                    mult = mult * arr1[i];
+//                }
+
+//            }
+
+//            return mult;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq tareri qanaky");
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+
+//        }
+//    }
+//}
+
+
 
 //Problem 231
 
@@ -202,6 +410,136 @@ using System.Security.Cryptography.X509Certificates;
 //        }
 //    }
 //}
+
+
+
+//Problem 234
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int sum = 0;
+//            int[] arr1 = new int[n];
+//            Random rnd= new Random();
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = rnd.Next(1,20);
+//                if (arr1[i] % 2 != 0)
+//                {
+//                    sum = sum + arr1[i];
+//                }
+//            }
+//            return sum / n;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq tareri qanaky");
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+//        }
+//    }
+//}
+
+//Problem 238
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int sum = 0;
+//            int t = 0;
+//            int[] arr1 = new int[n];
+//            Random rnd= new Random();
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = rnd.Next(1, 20);
+//                if (arr1[i] % 3 == 0)
+//                {
+//                    sum = sum + arr1[i];
+//                    t++;
+//                }
+//            }
+//            return sum / t;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq tareri qanaky");
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));
+
+//        }
+//    }
+//}
+
+//Problem 241
+
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int k , int n)
+//        {
+//            int sum = 0;
+//            int[] arr1=new int[n];
+//            Random rnd= new Random();
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = rnd.Next(1,20);
+//                if (arr1[i] % k == 0 )
+//                {
+//                    sum = sum + arr1[i];
+//                }
+//            }
+//            return  sum;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq tareri qanaky ev k tivy");
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            int k = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(k,n));
+
+//        }
+//    }
+//}
+
+
+//Problem 244
+
+//namespace HelloWorld
+//{
+//    class Program
+//    {
+//        static int MyMethod(int n)
+//        {
+//            int sum = 1;
+//            int[] arr1 = new int[n];
+//            Random rnd= new Random();
+//            for (int i = 0; i < n; i++)
+//            {
+//                arr1[i] = rnd.Next(1,30);
+//                if (arr1[i] % 5 == 2)
+//                {
+//                    sum = sum * arr1[i];    
+//                }
+//            }
+//            return sum;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("mutqagreq tareri qanaky");
+//            int n = Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine(MyMethod(n));        }
+//        }
+//    }
+
+
+
+
+
 
 
 //Problem 251
